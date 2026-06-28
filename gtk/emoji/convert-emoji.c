@@ -54,7 +54,7 @@
 gboolean
 parse_code (GVariantBuilder *b,
             const char      *code,
-            gboolean         needs_presentation_selector)
+            gboolean         needs_presentation_)
 {
   char **strv;
   int j;
